@@ -1,0 +1,8 @@
+To show how and why JWT are actually used, 
+we will use a simple 3 entity example 
+(see the below diagram). The entities 
+in this example are the user, the application 
+server, and the authentication server. 
+The authentication server will provide the 
+JWT to the user. With the JWT, the user can 
+then safely communicate with the application.

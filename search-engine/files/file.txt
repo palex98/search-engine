@@ -1,0 +1,6 @@
+Once this is called Node starts to read the file in the background, 
+but it also keeps executing our program. That is, it will call the 
+console.log('after calling readFile'); and will print that text to 
+the console. Then, once the file has been read into memory, Node 
+will run the function we provided to the readFile method and that 
+will print the content of the file.
